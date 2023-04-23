@@ -40,7 +40,7 @@ const {isAuth,HandleAuth}=context
        HandleAuth()
        
         alert("Login successfully");
-        navigate("/timerapp");
+        navigate("/Home");
       })
       .catch((err) => {
         setSubmitbtn(false);
@@ -57,7 +57,7 @@ const {isAuth,HandleAuth}=context
   return (
     <>
       <Box w={{sm:"70%",md:"70%",lg:"70%"}} h={{sm:"25px",md:"35px",lg:"50px"}}m="auto" mt="30px">
-        <Heading fontSize={{sm:"30px",md:"35px",lg:"40px"}} color="brown">Welcome to MTechZilla</Heading>
+        <Heading fontSize={{sm:"30px",md:"35px",lg:"40px"}} color="brown">Welcome to Breeze.ai</Heading>
       </Box>
       <br />
       <Box
